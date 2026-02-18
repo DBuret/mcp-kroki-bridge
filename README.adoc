@@ -11,7 +11,7 @@ An ultra-lightweight (4MB) MCP gateway to render diagrams and data visualization
 image:https://img.shields.io/docker/image-size/davidburet/mcp-kroki-bridge/latest[Size]
 image:https://img.shields.io/docker/v/davidburet/mcp-kroki-bridge[Version]
 
-NOTE: Kroki is included. This project is a gateway. Either start your own local Kroki instance or use https://kroki.io. I'm not affiliated with Kroki, please contact them before using their free service extensively - or better yet, start your own local instance.
+NOTE: Kroki is NOT included. This project is a gateway. Either start your own local Kroki instance or use https://kroki.io. I'm not affiliated with Kroki, please contact them before using their free service extensively - or better yet, start your own local instance.
 
 == Features
 
