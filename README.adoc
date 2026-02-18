@@ -11,11 +11,13 @@ An ultra-lightweight (4MB) MCP gateway to render diagrams and data visualization
 image:https://img.shields.io/docker/image-size/davidburet/mcp-kroki-bridge/latest[Size]
 image:https://img.shields.io/docker/v/davidburet/mcp-kroki-bridge[Version]
 
+NOTE: Kroki is included. This project is a gateway. Either start your own local Kroki instance or use https://kroki.io. I'm not affiliated with Kroki, please contact them before using their free service extensively - or better yet, start your own local instance.
+
 == Features
 
-* **Multiple Engines**: Supports Mermaid, PlantUML, Vega-Lite, Graphviz, and more.
+* **Multiple Engines**: Supports Mermaid (not yet), PlantUML, Vega-Lite.
 * **Smart Compression**: Uses Zlib + Base64 encoding to fit complex diagrams into URLs.
-* **Hybrid Mode**: Compatible with both standard MCP (SSE) and LM Studio (HTTP/POST).
+* **Network**: exposed with SSE and can be called  through network by LLM
 * **Security**: Built from `scratch` with a non-root user. No OS vulnerabilities.
 
 == Tools Included
