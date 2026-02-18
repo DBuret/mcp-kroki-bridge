@@ -6,7 +6,7 @@ David Buret <https://github.com/DBuret[@DBuret]>
 :sectnums:
 :toc:
 
-An ultra-lightweight (4MB) MCP gateway to render diagrams and data visualizations by calling link:https://kroki.io[Kroki].
+An ultra-lightweight (4MB) MCP gateway to render diagrams and data visualizations by calling https://kroki.io[Kroki].
 
 image:https://img.shields.io/docker/image-size/davidburet/mcp-kroki-bridge/latest[Size]
 image:https://img.shields.io/docker/v/davidburet/mcp-kroki-bridge[Version]
@@ -23,10 +23,10 @@ NOTE: Kroki is NOT included. This project is a gateway. Either start your own lo
 == Tools Included
 
 === `render_plantuml`
-Render professional UML diagrams (classes, sequences, states) and C4 models.
+Render professional UML diagrams (classes, sequences, states) and C4 models with https://plantuml.com/en/[plantuml].
 
 === `render_vega`
-The power of Data Visualization. Transform JSON data into beautiful charts (bars, lines, scatter plots) using Vega-Lite.
+The power of Data Visualization. Transform JSON data into beautiful charts (bars, lines, scatter plots) using https://vega.github.io/[Vega-Lite].
 
 == Quick Start (Docker)
 
